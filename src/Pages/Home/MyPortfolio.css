@@ -1,0 +1,104 @@
+.portfolio--section {
+    padding: 2rem;
+    background-color: #f9f9f9;
+  }
+  
+  .portfolio--container-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .portfolio--container {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .sub--title {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  .section--heading {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .portfolio--section--container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+  
+  .portfolio--section--card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 250px; /* Reduced width */
+    height: 550px; /* Fixed height */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .portfolio--section--card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .portfolio--section--img img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .portfolio--section--card--content {
+    padding: 1rem;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .portfolio--section--title {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+  }
+  
+  .text-md {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .text-sm {
+    font-size: 0.875rem;
+    color: #777;
+  }
+  
+  .portfolio--link a {
+    color: #007bff;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+  }
+  
+  .portfolio--link a:hover {
+    text-decoration: underline;
+  }
+  
+  .btn-github {
+    padding: 0.8rem 1.5rem;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-github:hover {
+    background-color: #555;
+  }

@@ -1,0 +1,75 @@
+{
+  "skills": [
+    {
+      "id": "1",
+      "src": "./img/product-chain-1.png",
+      "title": "Front-End",
+      "description": "HTML, Bootstrap css, JavaScript and React"
+    },
+    {
+      "id": "2",
+      "src": "./img/tag-1.png",
+      "title": "Back-End",
+      "description": "Python||django, NodeJS and Java"
+    },
+    {
+      "id": "3",
+      "src": "./img/feather-pen-2.png",
+      "title": "Databases",
+      "description": " PostgreSQL and MySQL "
+    },
+    {
+      "id": "4",
+      "src": "./img/tag-1.png",
+      "title": "Penetration Testing",
+      "description": "penetration testing to identify vulnerabilities and strengthen application security,"
+    },
+
+    {
+      "id": "4",
+      "src": "./img/tag-1.png",
+      "title": "Networking",
+      "description": "I ensure secure connections and reliable data transmission for applications."
+    }
+  ],
+  "portfolio": [
+    {
+      "id": "1",
+      "src": "./img/IMSConnect.png",
+      "title": "IMS Connect",
+      "description": "IMS Connect empowers organizations to transform ideas into impact. Our platform streamlines innovation management, facilitates collaboration, and drives measurable results.",
+      "link": "https://github.com/itMakai/IMS-connect.git",
+      "linkLabel": "View In Github"
+    },
+    {
+      "id": "2",
+      "src": "./img/Bizmaster.png",
+      "title": "Bizmaster",
+      "description": "An e-commerce platform designed to streamline business management. It features a user-friendly dashboard for managing profiles, products, and orders, supports both buyers and sellers, and integrates multiple payment options like PayPal, Mpesa, and pay-on-delivery.",
+      "link": "https://github.com/itMakai/Bizmaster.git",
+      "linkLabel": "View In Github"
+    },
+    {
+      "id": "3",
+      "src": "./img/event.png",
+      "title": "EventSync",
+      "description": "EventSync is an AI-powered event management platform designed to streamline the planning and execution of events. It leverages artificial intelligence to automate tasks such as scheduling, attendee management, and personalized communication.",
+      "link": "https://github.com/itMakai/EventSync.git",
+      "linkLabel": "View In Github"
+    }
+  ],
+  "certificates": [
+    {
+      "id": "1",
+      "src": "./img/cybersec.jpeg",
+      "title": "Certificate in Cyber Security",
+      "description": "Awarded for completing penetration testing Workshop."
+    },
+    {
+      "id": "2",
+      "src": "./img/gdgcert.jpeg",
+      "title": "Certificate in Community Mentorship",
+      "description": "Awarded for serving as Web Developer Mentor By Google Developer Groups."
+    }
+  ]
+}

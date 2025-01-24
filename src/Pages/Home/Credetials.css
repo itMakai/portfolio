@@ -1,0 +1,90 @@
+.resume--section {
+    padding: 2rem;
+    background-color: #f9f9f9;
+  }
+  
+  .portfolio--container-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .portfolio--container {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .sub--title {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  .sections--heading {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .resume--section--container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .resume--download {
+    margin-bottom: 2rem;
+  }
+  
+  .btn-download {
+    padding: 0.8rem 1.5rem;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-download:hover {
+    background-color: #0056b3;
+  }
+  
+  .certificates--container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+  
+  .certificate--card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .certificate--card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .certificate--img img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .certificate--content {
+    padding: 1rem;
+  }
+  
+  .certificate--title {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+  }
+  
+  .text-md {
+    font-size: 1rem;
+    color: #555;
+  }
