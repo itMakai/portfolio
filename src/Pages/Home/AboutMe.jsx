@@ -8,10 +8,10 @@ export default function AboutMe() {
       </div>
       <div className="hero--section--content--box about--section--box">
         <div className="hero--section--content">
-          <p className="section--title">About</p>
+          <p className="section--title">About me</p>
           <h1 className="skills-section--heading"></h1>
           <p className="hero--section-description">
-          Hello! I’m Daniel Makai, a dedicated and enthusiastic Software Engineer with a strong background in full-stack development. I specialize in creating dynamic and efficient web applications using modern technologies like Django, React, Python, and JavaScript. My passion lies in building scalable solutions that solve real-world problems while delivering exceptional user experiences.
+           I’m Daniel Makai, a dedicated and enthusiastic Software Engineer with a strong background in full-stack development. I specialize in creating dynamic and efficient web applications using modern technologies like Django, React, Python, and JavaScript. My passion lies in building scalable solutions that solve real-world problems while delivering exceptional user experiences.
 
 I am currently a student at Taita Taveta University taking Bachelor of Science in Information Technology,I have developed a solid foundation in software development and network security. Additionally, my professional experience includes working on various projects, such as e-commerce platforms, student management systems, and AI-driven websites, where I honed my skills in both frontend and backend development.
 

@@ -16,7 +16,7 @@ export default function HeroSection() {
               Developer
             </h1>
             <p className="hero--section-description">
-              Hi, I’m Daniel Makai, a passionate Software Engineer with expertise in building dynamic, user-friendly web applications. With a strong foundation in full-stack development and a keen eye for detail, I create scalable solutions that empower businesses and communities. Let’s build something amazing together!
+              I'm a passionate Software Engineer with expertise in building dynamic, user-friendly web applications. With a strong foundation in full-stack development and a keen eye for detail, I create scalable solutions that empower businesses and communities. Let’s build something amazing together!
             </p>
           </div>
           <Link
@@ -30,7 +30,7 @@ export default function HeroSection() {
           </Link>
         </div>
         <div className="hero--section--img">
-          <img src="./img/dan1.png" alt="Hero Section" />
+          <img src="./img/hero.jpeg" alt="Hero Section" />
         </div>
       </section>
     
