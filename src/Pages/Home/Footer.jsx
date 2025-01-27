@@ -186,7 +186,7 @@ function Footer() {
                 to="Privacy_Policy"
                 className="text-sm"
               >
-                Privacy Policy
+                +254115784503
               </Link>
             </li>
             <li>
@@ -199,7 +199,7 @@ function Footer() {
                 to="Terms_of_Service"
                 className="text-sm"
               >
-                Terms of Service
+                itsoftmak@gmail.com
               </Link>
             </li>
             <li>
@@ -212,7 +212,7 @@ function Footer() {
                 to="Cookies_Settings"
                 className="text-sm"
               >
-                Cookies Settings
+                {/* Cookies Settings */}
               </Link>
             </li>
           </ul>

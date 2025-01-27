@@ -56,6 +56,14 @@
       "description": "EventSync is an AI-powered event management platform designed to streamline the planning and execution of events. It leverages artificial intelligence to automate tasks such as scheduling, attendee management, and personalized communication.",
       "link": "https://github.com/itMakai/EventSync.git",
       "linkLabel": "View In Github"
+    },
+    {
+      "id": "4",
+      "src": "./img/preview.png",
+      "title": "tasty01",
+      "description": "A food delivery platform that connects customers with local restaurants. It features a user-friendly interface for browsing menus, placing orders, and tracking deliveries in real-time.",
+      "link": "https://tasty01.netlify.app/",
+      "linkLabel": "visit site"
     }
   ],
   "certificates": [
