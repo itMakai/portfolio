@@ -1,13 +1,15 @@
+import React from "react";
 import data from "../../data/index.json";
+import "./MySkills.css"; // Import the CSS file
 
 export default function MySkills() {
   return (
     <section className="skills--section" id="mySkills">
       <div className="portfolio--container">
-        <p className="section--title">My Skills</p>
-        {/* <h2 className="skills--section--heading">My Expertise</h2> */}
-      </div>
+      <p className="section--title">My Skills</p>
+     
       <div className="skills--section--container">
+        
         {data?.skills?.map((item, index) => (
           <div key={index} className="skills--section--card">
             <div className="skills--section--img">
@@ -19,6 +21,7 @@ export default function MySkills() {
             </div>
           </div>
         ))}
+      </div>
       </div>
     </section>
   );

@@ -59,7 +59,8 @@
   
   .hero--section--img {
     flex: 1;
-    max-width: 350px; /* Reduce max-width to bring sections closer */
+    max-width: 250px; 
+
   }
   
   .hero--section--img img {

@@ -37,7 +37,7 @@
     border: 1px solid #ddd;
     border-radius: 8px;
     overflow: hidden;
-    width: 250px; /* Reduced width */
+    width: 300px; /* Reduced width */
     height: 550px; /* Fixed height */
     display: flex;
     flex-direction: column;

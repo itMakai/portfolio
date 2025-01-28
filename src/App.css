@@ -6,6 +6,7 @@ body {
   -webkit-font-smoothing: "Roboto", sans-serif;
   -moz-osx-font-smoothing: "Roboto", sans-serif;
   font-style: normal;
+  
 }
 h1,
 h2,
@@ -249,19 +250,19 @@ h2 {
 .skills--section--heading {
   color: var(--heading-color);
   font-size: 64px;
-  font-weight: 700;
-  line-height: 77px;
+  font-weight: 500;
+  line-height: 40px;
 }
 .skills--section--container {
   display: grid;
   justify-content: center;
   align-items: flex-start;
-  gap: 42.6px;
+  gap: 32.6px;
   grid-template-columns: repeat(4, 1fr);
 }
 .skills--section--card {
   display: flex;
-  padding: 32px;
+  padding: 22px;
   flex-direction: column;
   align-items: flex-start;
   gap: 32px;
@@ -269,6 +270,7 @@ h2 {
   border-radius: 10.6px;
   background: var(--bg-shade);
   min-height: 250px;
+  color: #282938;
 }
 .skills--section--card:hover {
   border-bottom: 4px solid var(--primary);

@@ -1,0 +1,61 @@
+.skills--section {
+    padding: 60px 0;
+    background-color: hsl(0, 0%, 98%);
+  }
+  
+  .portfolio--container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 40px;
+  }
+  
+  .section--title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #413d3d;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .skills--section--container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .skills--section--card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    transition: transform 0.3s ease;
+  }
+  
+  .skills--section--card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .skills--section--img img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .skills--section--card--content {
+    padding: 20px;
+  }
+  
+  .skills--section--title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .skills--section--description {
+    font-size: 1rem;
+    color: #666;
+  }
