@@ -67,6 +67,15 @@
     }
   ],
   "certificates": [
+
+    {
+      "id": "1",
+      "src": "./img/backendcert.png",
+      "title": "Certificate in Software Engineering",
+      "description": "Awarded for completing 12 months software Engineering course offered by ALX Africa."
+    },
+
+
     {
       "id": "1",
       "src": "./img/cybersec.jpeg",

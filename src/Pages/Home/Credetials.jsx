@@ -12,7 +12,7 @@ export default function ResumeAndCertificates() {
       </div>
       <div className="resume--section--container">
         <div className="resume--download">
-          <a href="./files/Daniel Makai CV.pdf" download className="btn btn-download">
+          <a href="./files/Daniel Makai.pdf" download className="btn btn-download">
             Download My Resume
           </a>
         </div>
