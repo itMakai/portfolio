@@ -75,6 +75,12 @@
       "description": "Awarded for completing 12 months software Engineering course offered by ALX Africa."
     },
 
+    {
+      "id": "1",
+      "src": "./img/oracle.jpeg",
+      "title": "Oracle fusion cloud Applications",
+      "description": "Oracle Certified Foundations Associate Certificate of Recognition"
+    },
 
     {
       "id": "1",
