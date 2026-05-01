@@ -1,4 +1,4 @@
-import AboutMe from "../AboutMe";
+import Stats from "../Stats";
 import ContactMe from "../ContactMe";
 import Footer from "../Footer";
 import HeroSection from "../HeroSection";
@@ -11,7 +11,7 @@ export default function Home() {
     <>
       <HeroSection />
       <MySkills />
-      <AboutMe />
+      <Stats />
       <MyPortfolio />
       <Credetials />
       <ContactMe />

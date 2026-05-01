@@ -2,68 +2,61 @@
   "skills": [
     {
       "id": "1",
-      "src": "./img/product-chain-1.png",
-      "title": "Front-End",
-      "description": "HTML, Bootstrap css, JavaScript and React"
+      "src": "./img/tag-1.png",
+      "title": "Backend & Cloud",
+      "description": "Python, C#, Java, Django, ASP.NET Core. Proficient in scaling and containerization via Docker, Kubernetes, and GitLab CI/CD."
     },
     {
       "id": "2",
-      "src": "./img/tag-1.png",
-      "title": "Back-End",
-      "description": "Python||django, NodeJS and Java"
+      "src": "./img/product-chain-1.png",
+      "title": "Front-End",
+      "description": "JavaScript, ReactJS, HTML5, CSS3. Experience optimizing modern web interfaces."
     },
     {
       "id": "3",
       "src": "./img/feather-pen-2.png",
       "title": "Databases",
-      "description": " PostgreSQL and MySQL "
+      "description": "PostgreSQL and MySQL. Managing robust, secure data storage for automation systems."
     },
     {
       "id": "4",
       "src": "./img/tag-1.png",
-      "title": "Penetration Testing",
-      "description": "penetration testing to identify vulnerabilities and strengthen application security,"
-    },
-
-    {
-      "id": "4",
-      "src": "./img/tag-1.png",
-      "title": "Networking",
-      "description": "I ensure secure connections and reliable data transmission for applications."
+      "title": "AI & Analytics",
+      "description": "Applying Machine Learning for predictive modeling, EO data analysis, and driving productivity."
     }
   ],
   "portfolio": [
     {
       "id": "1",
-      "src": "./img/IMSConnect.png",
-      "title": "IMS Connect",
-      "description": "IMS Connect empowers organizations to transform ideas into impact. Our platform streamlines innovation management, facilitates collaboration, and drives measurable results.",
-      "link": "https://github.com/itMakai/IMS-connect.git",
-      "linkLabel": "View In Github"
+      "src": "./img/pedece.jpeg",
+      "title": "Disaster Response Predictor (AI)",
+      "description": "A flood and drought prediction model utilizing Satellite EO data (CHIRPS) and Open Weather API. Global Finalist at the National Earth Observation Innovation Lab.",
+      "link": "https://github.com/itMakai",
+      "linkLabel": "View Github"
     },
     {
       "id": "2",
-      "src": "./img/Bizmaster.png",
-      "title": "Bizmaster",
-      "description": "An e-commerce platform designed to streamline business management. It features a user-friendly dashboard for managing profiles, products, and orders, supports both buyers and sellers, and integrates multiple payment options like PayPal, Mpesa, and pay-on-delivery.",
-      "link": "https://github.com/itMakai/Bizmaster.git",
-      "linkLabel": "View In Github"
+      "src": "./img/intelligence.png",
+      "title": "Agritect: AI for Farming",
+      "description": "An ongoing research project developing predictive modeling for crop yields and pest detection using AI to empower Kenyan farmers.",
+      "link": "https://github.com/itMakai",
+      "linkLabel": "View Details"
     },
     {
       "id": "3",
-      "src": "./img/event.png",
-      "title": "EventSync",
-      "description": "EventSync is an AI-powered event management platform designed to streamline the planning and execution of events. It leverages artificial intelligence to automate tasks such as scheduling, attendee management, and personalized communication.",
-      "link": "https://github.com/itMakai/EventSync.git",
-      "linkLabel": "View In Github"
+      "src": "./img/chatbot.jpeg",
+      "title": "Disaster Response Chatbot",
+      "description": "A chatbot leveraging LLMs, Earth Observation data, and Twilio middleware. Won First Runners Up at the ActInSpace Hackathon.",
+      "link": "https://github.com/itMakai",
+      "linkLabel": "View Github"
     },
     {
       "id": "4",
       "src": "./img/preview.png",
-      "title": "tasty01",
-      "description": "A food delivery platform that connects customers with local restaurants. It features a user-friendly interface for browsing menus, placing orders, and tracking deliveries in real-time.",
-      "link": "https://tasty01.netlify.app/",
-      "linkLabel": "visit site"
+      "title": "restaurant and hotel website",
+      "description": "A responsive website for a restaurant and hotel, built with ReactJS and styled with Tailwind CSS. It features a user-friendly interface, showcasing the establishment's offerings and amenities.",
+      "link": "https://tasty01.netlify.app/#",
+      "linkLabel": "View website"
     }
   ],
   "certificates": [

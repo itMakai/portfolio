@@ -6,11 +6,12 @@ function Footer() {
     <footer className="footer--container">
       <div className="footer--link--container">
         <div>
-          <img src="" alt="" />
-          <h4>ITSOFTMAK</h4>
+          <h4 style={{ margin: 0, fontSize: "24px", color: "var(--white)" }}>
+            Makai<span style={{ color: "var(--accent)" }}>.</span>
+          </h4>
         </div>
         <div className="footer--items">
-          <ul>
+          <ul style={{ listStyle: "none" }}>
             <li>
               <Link
                 activeClass="navbar--active-content"

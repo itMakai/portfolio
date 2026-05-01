@@ -1,71 +1,18 @@
-.hero--section {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 6rem 2rem 2rem; /* Add top padding to avoid being hidden by the navbar */
-    background-color: #f9f9f9;
-  }
+.hero--section{display:flex;align-items:center;justify-content:center;padding:120px 24px 60px}
   
-  .hero--section--content--box {
-    /* flex: 2; */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    padding-right: 0.5rem; /* Reduce padding to bring sections closer */
-  }
+.hero--section--content--box{display:flex;flex-direction:column;justify-content:center;align-items:flex-start;padding-right:0.5rem}
   
   .hero--section--content {
     max-width: 600px;
   }
   
-  .section--title {
-    font-size: 1.2rem;
-    color: #555;
-    margin-bottom: 0.5rem;
-  }
+.section--title{font-size:1rem;color:var(--accent);margin-bottom:0.25rem;font-weight:600}
   
-  .hero--section--title {
-    font-size: 2.5rem;
-    color: #333;
-    margin-bottom: 1rem;
-  }
+.hero--section--title{font-size:44px;color:var(--white);margin:0 0 12px}
+.hero--section-title--color{color:var(--accent)}
+.hero--section-description{color:var(--muted);line-height:1.6;max-width:680px;margin-bottom:18px}
   
-  .hero--section-title--color {
-    color: #007bff;
-  }
+.btn-primary{padding:12px 20px;border-radius:10px}
   
-  .hero--section-description {
-    font-size: 1rem;
-    color: #555;
-    line-height: 1.6;
-    margin-bottom: 1.5rem;
-  }
-  
-  .btn-primary {
-    padding: 0.8rem 1.5rem;
-    background-color: #007bff;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-    border: none;
-    cursor: pointer;
-  }
-  
-  .btn-primary:hover {
-    background-color: #0056b3;
-  }
-  
-  .hero--section--img {
-    flex: 1;
-    max-width: 250px; 
-
-  }
-  
-  .hero--section--img img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
+.hero--section--img{flex:1;max-width:320px}
+.hero--section--img img{width:100%;height:auto;border-radius:12px;box-shadow:0 10px 30px rgba(2,6,23,0.6);border:1px solid rgba(255,255,255,0.03)}

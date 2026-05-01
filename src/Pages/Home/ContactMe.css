@@ -1,122 +1,16 @@
 /* General styles */
-.contact--section {
-    background-color: #f9f9f9;
-    padding: 40px 20px;
-    text-align: center;
-    font-family: 'Arial', sans-serif;
-  }
-  
-  .sub--title {
-    font-size: 24px;
-    font-weight: 600;
-    color: #333;
-    margin-bottom: 10px;
-  }
-  
-  .text-lg {
-    font-size: 16px;
-    color: #555;
-    margin-bottom: 30px;
-    line-height: 1.5;
-  }
-  
-  .contact--form--container {
-    max-width: 600px;
-    margin: 0 auto;
-    background: rgba(255, 255, 255, 0.836);
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
-  
-  /* Label and input styles */
-  .contact--label {
-    display: block;
-    margin-bottom: 15px;
-    text-align: left;
-  }
-  
-  .contact--label span {
-    display: block;
-    margin-bottom: 5px;
-    color: #333;
-    font-weight: 500;
-  }
-  
-  .contact--input {
-    width: 100%;
-    padding: 10px 15px;
-    font-size: 14px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-sizing: border-box;
-    transition: border-color 0.3s ease;
-  }
-  
-  .contact--input:focus {
-    border-color: #007bff;
-    outline: none;
-    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
-  }
-  
-  textarea.contact--input {
-    resize: none;
-  }
-  
-  /* Checkbox styles */
-  .checkbox--label {
-    display: flex;
-    align-items: center;
-    margin-top: 15px;
-    text-align: left;
-  }
-  
-  .checkbox--label input {
-    margin-right: 10px;
-  }
-  
-  .checkbox--label span {
-    font-size: 14px;
-    color: #555;
-  }
-  
-  /* Button styles */
-  .contact--form--btn {
-    background-color: #007bff;
-    color: #fff;
-    padding: 10px 20px;
-    font-size: 16px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-top: 20px;
-    transition: background-color 0.3s ease, transform 0.2s ease;
-  }
-  
-  .contact--form--btn:hover {
-    background-color: #0056b3;
-    transform: scale(1.05);
-  }
-  
-  /* Success message */
-  .success-message {
-    margin-top: 20px;
-    font-size: 14px;
-    color: green;
-  }
-  
-  /* Responsive design */
-  @media screen and (max-width: 768px) {
-    .contact--form--container {
-      padding: 15px;
-    }
-  
-    .contact--label {
-      margin-bottom: 10px;
-    }
-  
-    .contact--form--btn {
-      width: 100%;
-    }
-  }
+/* Contact section overrides to match dark theme */
+.contact--section{padding:120px 24px 80px;text-align:center}
+.sub--title{font-size:20px;color:var(--muted);margin-bottom:6px}
+.text-lg{color:var(--muted);margin-bottom:18px}
+.contact--form--container{max-width:680px;margin:0 auto}
+.contact--label{display:flex;flex-direction:column;align-items:flex-start;gap:8px}
+.contact--label span{color:var(--muted);font-weight:600}
+.contact--input{width:100%;padding:12px;border-radius:8px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:var(--white)}
+textarea.contact--input{min-height:140px}
+.checkbox--label{margin-top:8px;color:var(--muted)}
+.checkbox--label input{width:18px;height:18px}
+.contact--form--btn{margin-top:18px}
+.success-message{color:#6ade9a}
+@media screen and (max-width:768px){.contact--form--container{padding:16px}}
   

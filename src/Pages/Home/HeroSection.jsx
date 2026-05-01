@@ -13,10 +13,14 @@ export default function HeroSection() {
             <h1 className="hero--section--title">
               <span className="hero--section-title--color">Software</span>{" "}
               <br />
-              Developer
+              Engineer
             </h1>
             <p className="hero--section-description">
-              I'm a passionate Software Engineer with expertise in building dynamic, user-friendly web applications. With a strong foundation in full-stack development and a keen eye for detail, I create scalable solutions that empower businesses and communities. Let’s build something amazing together!
+              Innovative Software Engineer with a strong foundation in Backend
+              Development (Python, C#.NET) and DevOps. Currently conducting
+              advanced research on AI integration in Kenyan agriculture. Proven
+              track record in winning international hackathons by developing
+              AI-driven solutions for climate change.
             </p>
           </div>
           <Link
@@ -33,7 +37,6 @@ export default function HeroSection() {
           <img src="./img/hero.jpeg" alt="Hero Section" />
         </div>
       </section>
-    
     </>
   );
 }
