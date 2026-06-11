@@ -53,9 +53,25 @@
     {
       "id": "4",
       "src": "./img/preview.png",
-      "title": "restaurant and hotel website",
+      "title": "Restaurant & Hotel Website",
       "description": "A responsive website for a restaurant and hotel, built with ReactJS and styled with Tailwind CSS. It features a user-friendly interface, showcasing the establishment's offerings and amenities.",
       "link": "https://tasty01.netlify.app/#",
+      "linkLabel": "View website"
+    },
+    {
+      "id": "5",
+      "src": "./img/stjoseph.png",
+      "title": "St. Joseph Youth Sinai",
+      "description": "A modern, animated community website for St. Joseph Catholic Church Sinai Youth Group at St. Mary's Parish, Mukuru, Nairobi. Features event listings, gallery, chaplain info, and contact — built with React & custom CSS.",
+      "link": "https://stjosephyouth.netlify.app/",
+      "linkLabel": "View website"
+    },
+    {
+      "id": "6",
+      "src": "./img/ardhisacco.png",
+      "title": "Ardhi Sacco Web Platform",
+      "description": "A full-featured financial cooperative (SACCO) web platform for Ardhi Sacco. Includes member portal, loan management, savings overview, and an admin dashboard — built to modernize Kenya's land professional savings society.",
+      "link": "https://web.ardhisacco.co.ke/",
       "linkLabel": "View website"
     }
   ],
