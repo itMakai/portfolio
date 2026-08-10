@@ -19,3 +19,54 @@ Compiled successfully!
 webpack compiled [1m[32msuccessfully[39m[22m
 Compiled successfully!
 webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Failed to compile.
+
+Module parse failed: Cannot parse JSON: Unexpected non-whitespace character after JSON at position 19 (line 1 column 20) while parsing '      "description": "A flood and drough'
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+Error: Cannot parse JSON: Unexpected non-whitespace character after JSON at position 19 (line 1 column 20) while parsing '      "description": "A flood and drough'
+[1m[31mERROR[39m[22m in [1m./src/data/index.json[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: Cannot parse JSON: [1m[31mUnexpected[39m[22m[1m non-whitespace character after JSON at position 19 (line 1 column 20) while parsing '      "description": "A flood and drough'
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+[1m[31mError[39m[22m[1m: Cannot parse JSON: [1m[31mUnexpected[39m[22m[1m non-whitespace character after JSON at position 19 (line 1 column 20) while parsing '      "description": "A flood and drough'
+    at JsonParser.parse (C:\Users\HomePC\Desktop\repos\portfolio\node_modules\webpacFailed to compile.
+
+Module parse failed: Cannot parse JSON: Unexpected non-whitespace character after JSON at position 19 (line 1 column 20) while parsing '      "description": "A flood and drough'
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+Error: Cannot parse JSON: Unexpected non-whitespace character after JSON at position 19 (line 1 column 20) while parsing '      "description": "A flood and drough'
+[1m[31mERROR[39m[22m in [1m./src/data/index.json[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: Cannot parse JSON: [1m[31mUnexpected[39m[22m[1m non-whitespace character after JSON at position 19 (line 1 column 20) while parsing '      "description": "A flood and drough'
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+[1m[31mError[39m[22m[1m: Cannot parse JSON: [1m[31mUnexpected[39m[22m[1m non-whitespace character after JSON at position 19 (line 1 column 20) while parsing '      "description": "A flood and drough'
+    at JsonParser.parse (C:\Users\HomePC\Desktop\repos\portfolio\node_modules\webpack\lib\json\JsonParser.js:54:10)
+    at C:\Users\HomePC\Desktop\repos\portfolio\node_modules\webpack\lib\NormaCompiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+_modules\webpack\lib\NormalModule.js:806:11)
+    at C:\Users\HomePC\Desktop\repos\portfolio\node_modules\webpack\lib\NormalModule.js:866:5
+    at C:\Users\HomePC\Desktop\repos\portfolio\node_modules\loader-runner\lib\LoaderRunner.js:407:3
+    at iterateNormalLoaders (C:\Users\HomePC\Desktop\repos\portfolio\node_modules\loader-runner\lib\LoaderRunner.js:233:10)
+    at C:\Users\HomePC\Desktop\repos\portfolio\node_modules\loader-runner\lib\LoaderRunner.js:224:4
+    at C:\Users\HomePC\Desktop\repos\portfolio\node_modules\webpack\lib\NormalModule.js:840:15
+    at Array.eval (eval at create (C:\Users\HomePC\Desktop\repos\portfolio\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:12:1)
+    at runCallbacks (C:\Users\HomePC\Desktop\repos\portfolio\node_modules\enhanced-resolve\lib\CachedInputFileSystem.js:43:15)
+    at C:\Users\HomePC\Desktop\repos\portfolio\node_modules\enhanced-resolve\lib\CachedInputFileSystem.js:249:5
+    at C:\Users\HomePC\Desktop\repos\portfolio\node_modules\graceful-fs\graceful-fs.js:123:16
+    at FSReqCallback.readFileAfterClose [as oncomplete] (node:internal/fs/read/context:68:3)[39m[22m
+
+webpack compiled with [1m[31m1 error[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m

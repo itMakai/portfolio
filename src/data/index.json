@@ -4,25 +4,25 @@
       "id": "1",
       "src": "./img/tag-1.png",
       "title": "Backend & Cloud",
-      "description": "Python, C#, Java, Django, ASP.NET Core. Proficient in scaling and containerization via Docker, Kubernetes, and GitLab CI/CD."
+      "description": "Python, C#, Java, Django, ASP.NET Core. We deliver scalable and secure infrastructure utilizing Docker, Kubernetes, and robust CI/CD pipelines."
     },
     {
       "id": "2",
       "src": "./img/product-chain-1.png",
       "title": "Front-End",
-      "description": "JavaScript, ReactJS, HTML5, CSS3. Experience optimizing modern web interfaces."
+      "description": "JavaScript, ReactJS, HTML5, CSS3. We build highly optimized, responsive, and modern web interfaces tailored for user engagement."
     },
     {
       "id": "3",
       "src": "./img/feather-pen-2.png",
       "title": "Databases",
-      "description": "PostgreSQL and MySQL. Managing robust, secure data storage for automation systems."
+      "description": "PostgreSQL and MySQL. We design and manage robust, secure data storage solutions for automation systems and enterprise applications."
     },
     {
       "id": "4",
       "src": "./img/tag-1.png",
       "title": "AI & Analytics",
-      "description": "Applying Machine Learning for predictive modeling, EO data analysis, and driving productivity."
+      "description": "Applying Machine Learning for predictive modeling, EO data analysis, and driving productivity across business operations."
     }
   ],
   "portfolio": [
