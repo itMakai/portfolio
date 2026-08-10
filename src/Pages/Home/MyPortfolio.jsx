@@ -5,15 +5,10 @@ import useScrollReveal, {
 } from "../../hooks/useScrollReveal";
 
 const LIVE_IDS = ["4", "5", "6", "7"];
-const FEATURED_PROJECT_ID = "7"; // Ardhi Housing
 
 export default function MyPortfolio() {
   const headerRef = useScrollReveal();
-  const featuredRef = useScrollReveal({ threshold: 0.2 });
   const addCardRef = useScrollRevealList();
-
-  const featuredProject = data?.portfolio?.find(p => p.id === FEATURED_PROJECT_ID);
-  const otherProjects = data?.portfolio?.filter(p => p.id !== FEATURED_PROJECT_ID);
 
   return (
     <section className="portfolio--section" id="MyPortfolio">

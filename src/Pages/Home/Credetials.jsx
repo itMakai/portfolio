@@ -5,8 +5,6 @@ import useScrollReveal, {
 } from "../../hooks/useScrollReveal";
 
 export default function ResumeAndCertificates() {
-  const headerRef = useScrollReveal();
-  const timelineRef = useScrollReveal();
   const downloadRef = useScrollReveal();
   const addCertRef = useScrollRevealList();
 
@@ -14,7 +12,7 @@ export default function ResumeAndCertificates() {
     <section className="resume--section" id="resume">
       <div ref={downloadRef} className="resume--download scroll-reveal">
         <a
-          href="./files/Daniel Makai.pdf"
+          href="./files/Daniel Makai CV.pdf"
           download
           className="btn btn-download glow-btn"
         >

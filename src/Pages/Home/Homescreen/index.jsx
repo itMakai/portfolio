@@ -4,7 +4,6 @@ import HeroSection from "../HeroSection";
 import MyPortfolio from "../MyPortfolio";
 import MySkills from "../MySkills";
 import Credetials from "../Credetials";
-import Navbar from "../Navbar";
 import TrustedBy from "../TrustedBy";
 import Services from "../Services";
 import CallToAction from "../CallToAction";
@@ -12,7 +11,6 @@ import CallToAction from "../CallToAction";
 export default function Home() {
   return (
     <>
-      <Navbar />
       <HeroSection />
       <TrustedBy />
       <Services />

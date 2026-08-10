@@ -37,8 +37,8 @@ export default function ContactMe() {
       <div ref={headerRef} className="scroll-reveal">
         <p className="sub--title">Get In Touch</p>
         <p className="text-lg">
-          I'd love to hear from you! Whether you have a question or just want to
-          say hi, feel free to drop a message.
+          Tell us what you are building, improving, or protecting. We will get
+          back with a practical next step.
         </p>
       </div>
       <form
@@ -83,7 +83,7 @@ export default function ContactMe() {
           <label htmlFor="phone-number" className="contact--label">
             <span className="text-md">Phone Number</span>
             <input
-              type="number"
+              type="tel"
               className="contact--input text-md"
               name="phone-number"
               id="phone-number"
@@ -104,11 +104,11 @@ export default function ContactMe() {
         </label>
         <label htmlFor="checkbox" className="checkbox--label">
           <input type="checkbox" required name="checkbox" id="checkbox" />
-          <span className="text-sm">I accept the terms</span>
+          <span className="text-sm">I agree to be contacted about my inquiry</span>
         </label>
         <div>
           <button type="submit" className="btn btn-primary contact--form--btn">
-            Submit
+            Send Message
           </button>
         </div>
       </form>
