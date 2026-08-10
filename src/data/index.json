@@ -73,6 +73,14 @@
       "description": "A full-featured financial cooperative (SACCO) web platform for Ardhi Sacco. Includes member portal, loan management, savings overview, and an admin dashboard — built to modernize Kenya's land professional savings society.",
       "link": "https://web.ardhisacco.co.ke/",
       "linkLabel": "View website"
+    },
+    {
+      "id": "7",
+      "src": "./img/ardhihousing.png",
+      "title": "Ardhi Housing Co-operative",
+      "description": "A real estate platform for Ardhi Housing Co-operative Society LTD. Features property listings, land investment products, and an online inquiry system — built to showcase residential plots across Kenya.",
+      "link": "https://ardhihousing.com",
+      "linkLabel": "View website"
     }
   ],
   "certificates": [

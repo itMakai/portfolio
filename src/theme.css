@@ -1,20 +1,27 @@
 :root{
-  --bg: #0f1724; /* deep navy */
-  --surface: #0b1220; /* near black */
-  --muted: #94a3b8; /* muted text */
-  --accent: #6c5ce7; /* primary accent */
-  --accent-2: #00d4ff; /* secondary accent */
-  --card: #0b1228;
-  --glass: rgba(255,255,255,0.04);
+  --bg: #050505; /* true void black */
+  --surface: #0a0a0c; /* extremely dark gray */
+  --muted: #888893; /* muted text */
+  --accent: #7c3aed; /* neon purple */
+  --accent-2: #06b6d4; /* neon cyan */
+  --card: #09090b;
+  --glass: rgba(255,255,255,0.03);
+  --glass-border: rgba(255,255,255,0.05);
   --white: #ffffff;
-  --radius: 12px;
+  --radius: 16px;
 }
 
 *{box-sizing:border-box}
+html{scroll-behavior:smooth}
 html,body,#root{height:100%}
+
 body{
   margin:0;
-  background: linear-gradient(180deg,var(--bg),#071023 60%);
+  background-color: var(--bg);
+  background-image: 
+    radial-gradient(circle at 15% 50%, rgba(124, 58, 237, 0.08), transparent 25%),
+    radial-gradient(circle at 85% 30%, rgba(6, 182, 212, 0.08), transparent 25%);
+  background-attachment: fixed;
   color:var(--white);
   font-family: Inter, Roboto, system-ui, -apple-system, 'Segoe UI', sans-serif;
   -webkit-font-smoothing:antialiased;

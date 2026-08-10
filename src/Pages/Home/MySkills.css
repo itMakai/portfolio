@@ -1,83 +1,111 @@
-/* General Section Styling */
+/* ─── Bento Grid Container ─── */
 .skills--section {
-  padding: 120px 20px;
-  text-align: center; /* Centers all text inside */
+  padding: 120px 24px;
+  background-color: var(--surface);
+  position: relative;
+  z-index: 2;
 }
 
-/* Section Title Styling */
-.section--title {
-  font-size: 2.5rem;
-  font-weight: bold;
-  margin-bottom: 40px;
-  display: inline-block;
-  text-align: center; /* Centers title */
-  color: var(--white);
+.text-center {
+  text-align: center;
+}
+.block {
+  display: block;
 }
 
-/* Container for Cards */
-.skills--section .portfolio--container {
-  align-items: center;
-  width: 100%;
+.bento-grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-auto-rows: minmax(200px, auto);
+  gap: 24px;
+  max-width: 1200px;
+  margin: 40px auto 0;
 }
 
-.skills--section--container {
+/* ─── Bento Cards Base ─── */
+.bento-card {
+  position: relative;
+  background: var(--card);
+  border: 1px solid var(--glass-border);
+  border-radius: 24px;
+  padding: 32px;
+  overflow: hidden;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  flex-direction: column;
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.4s ease;
+  z-index: 1;
+}
+
+.bento-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+/* Suble hover glow */
+.bento-glow {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 150%;
+  height: 150%;
+  background: radial-gradient(circle, rgba(10, 102, 194, 0.05) 0%, transparent 60%);
+  transform: translate(-50%, -50%) scale(0);
+  transition: transform 0.6s ease;
+  z-index: -1;
+  pointer-events: none;
+}
+.bento-card:hover .bento-glow {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+/* ─── Content ─── */
+.bento-content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
   gap: 24px;
 }
 
-/* Individual Skill Card */
-.skills--section--card {
-  background: var(--card);
-  border: 1px solid rgba(255, 255, 255, 0.05);
-  border-radius: 12px;
-  padding: 32px 24px;
-  width: 280px;
-  text-align: center; /* Centers content */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+.bento-icon-wrapper {
+  background: rgba(10, 102, 194, 0.1);
+  padding: 16px;
+  border-radius: 16px;
+  width: max-content;
+  border: 1px solid var(--glass-border);
 }
 
-.skills--section--card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.4);
-}
-
-/* Image Container */
-.skills--section--img img {
-  width: 64px;
-  height: 64px;
+.bento-icon {
+  width: 32px;
+  height: 32px;
   object-fit: contain;
-  margin-bottom: 20px;
 }
 
-/* Card Title */
-.skills--section--title {
-  font-size: 1.25rem;
-  font-weight: 600;
-  color: var(--white);
+.bento-text {
+  margin-top: auto;
+}
+
+.bento-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--heading-color);
   margin-bottom: 12px;
 }
 
-/* Card Description */
-.skills--section--description {
-  font-size: 1rem;
+.bento-description {
+  font-size: 15px;
   color: var(--muted);
   line-height: 1.6;
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-  .skills--section--container {
-    flex-direction: column;
-    align-items: center;
+/* ─── Responsive ─── */
+@media (max-width: 1024px) {
+  .bento-grid-container {
+    grid-template-columns: repeat(2, 1fr);
   }
+}
 
-  .skills--section--card {
-    width: 100%;
-    max-width: 320px;
+@media (max-width: 600px) {
+  .bento-grid-container {
+    grid-template-columns: 1fr;
   }
 }

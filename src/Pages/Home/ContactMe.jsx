@@ -1,34 +1,54 @@
-import React, { useRef, useState } from 'react';
-import emailjs from 'emailjs-com';
-import "./ContactMe.css"; // Import the CSS file
+import React, { useRef, useState } from "react";
+import emailjs from "emailjs-com";
+import "./ContactMe.css";
+import useScrollReveal from "../../hooks/useScrollReveal";
 
 export default function ContactMe() {
   const form = useRef();
-  const [successMessage, setSuccessMessage] = useState('');
+  const [successMessage, setSuccessMessage] = useState("");
+  const headerRef = useScrollReveal();
+  const formRef = useScrollReveal();
 
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_1rc5o8r', 'template_lkq8mfh', form.current, 'M-VY_Aeuxajy5A1by')
-      .then((result) => {
+    emailjs
+      .sendForm(
+        "service_1rc5o8r",
+        "template_lkq8mfh",
+        form.current,
+        "M-VY_Aeuxajy5A1by"
+      )
+      .then(
+        (result) => {
           console.log(result.text);
-          setSuccessMessage('Your message has been sent successfully!');
+          setSuccessMessage("Your message has been sent successfully!");
           form.current.reset();
-      }, (error) => {
+        },
+        (error) => {
           console.log(error.text);
-          setSuccessMessage('Failed to send your message. Please try again.');
-      });
+          setSuccessMessage("Failed to send your message. Please try again.");
+        }
+      );
   };
 
   return (
     <section id="Contact" className="contact--section">
-      <div>
+      <div ref={headerRef} className="scroll-reveal">
         <p className="sub--title">Get In Touch</p>
         <p className="text-lg">
-          I'd love to hear from you! Whether you have a question or just want to say hi, feel free to drop a message.
+          I'd love to hear from you! Whether you have a question or just want to
+          say hi, feel free to drop a message.
         </p>
       </div>
-      <form ref={form} onSubmit={sendEmail} className="contact--form--container">
+      <form
+        ref={(el) => {
+          form.current = el; // Maintain emailjs ref
+          formRef.current = el; // Apply scroll-reveal ref
+        }}
+        onSubmit={sendEmail}
+        className="contact--form--container scroll-reveal reveal-delay-2"
+      >
         <div className="container">
           <label htmlFor="first-name" className="contact--label">
             <span className="text-md">First Name</span>
@@ -87,7 +107,9 @@ export default function ContactMe() {
           <span className="text-sm">I accept the terms</span>
         </label>
         <div>
-          <button type="submit" className="btn btn-primary contact--form--btn">Submit</button>
+          <button type="submit" className="btn btn-primary contact--form--btn">
+            Submit
+          </button>
         </div>
       </form>
       {successMessage && <p className="success-message">{successMessage}</p>}
