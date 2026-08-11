@@ -131,7 +131,7 @@ export default function HeroSection() {
             <div className="hero-image-glow-border"></div>
             <img
               src="/files/iTsoftMak%20logo.jpeg"
-              alt="iTsoftMak Solutions"
+              alt="iTsoftMak Solutions - Enterprise Technology Agency by Daniel Makai"
               className="hero-modern-img"
               onError={(event) => {
                 event.currentTarget.src = "/logo.png";

@@ -23,6 +23,7 @@ export default function MyPortfolio() {
           href="https://github.com/itMakai"
           target="_blank"
           rel="noreferrer"
+          aria-label="Visit iTsoftMak Solutions GitHub profile"
         >
           <button className="btn btn-github">
             <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 33 33" fill="none">
@@ -53,7 +54,13 @@ export default function MyPortfolio() {
                   <div className="overlay-content">
                     <h3 className="overlay-title">{item.title}</h3>
                     <p className="overlay-desc">{item.description}</p>
-                    <a href={item.link} target="_blank" rel="noreferrer" className="overlay-link">
+                    <a 
+                      href={item.link} 
+                      target="_blank" 
+                      rel="noreferrer" 
+                      className="overlay-link"
+                      aria-label={`View project: ${item.title}`}
+                    >
                       {item.linkLabel} &rarr;
                     </a>
                   </div>

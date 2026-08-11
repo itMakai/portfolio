@@ -46,13 +46,13 @@ function Footer() {
           <h5 className="footer--column-title">Contact Us</h5>
           <ul className="footer--contact-links">
             <li>
-              <a href="tel:+254115784503">+254 115 784 503</a>
+              <a href="tel:+254115784503" aria-label="Call iTsoftMak Solutions">+254 115 784 503</a>
             </li>
             <li>
-              <a href="mailto:itsoftmak@gmail.com">itsoftmak@gmail.com</a>
+              <a href="mailto:itsoftmak@gmail.com" aria-label="Email iTsoftMak Solutions">itsoftmak@gmail.com</a>
             </li>
             <li>
-              <a href="mailto:danielmakai92@gmail.com">danielmakai92@gmail.com</a>
+              <a href="mailto:danielmakai92@gmail.com" aria-label="Email Founder Daniel Makai">danielmakai92@gmail.com</a>
             </li>
           </ul>
         </div>

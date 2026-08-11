@@ -34,7 +34,7 @@ export default function ResumeAndCertificates() {
             }`}
           >
             <div className="certificate--img">
-              <img src={item.src} alt="Certificate" />
+              <img src={item.src} alt={`${item.title} - Award to the Founder`} />
             </div>
             <div className="certificate--content">
               <h3 className="certificate--title">{item.title}</h3>
