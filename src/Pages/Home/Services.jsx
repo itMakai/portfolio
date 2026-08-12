@@ -1,5 +1,4 @@
 import React from "react";
-import "./Services.css";
 import useScrollReveal, { useScrollRevealList } from "../../hooks/useScrollReveal";
 
 export default function Services() {
@@ -52,27 +51,27 @@ export default function Services() {
   ];
 
   return (
-    <section className="services--section" id="services">
-      <div ref={headingRef} className="scroll-reveal" style={{ width: "100%", display: "flex", flexDirection: "column", alignItems: "center" }}>
-        <p className="sub--title text-center block">Our Expertise</p>
-        <h2 className="section--heading text-center">Our Services</h2>
-        <div className="section-glow-divider"></div>
-        
-        <div className="services-grid-container">
-          {servicesList.map((service, index) => (
-            <div
-              key={index}
-              ref={addCardRef(index)}
-              className={`service-card scroll-reveal reveal-delay-${(index % 4) + 1}`}
-            >
-              <div className="service-icon-wrapper">
-                {service.icon}
-              </div>
-              <h3 className="service-title">{service.title}</h3>
-              <p className="service-description">{service.description}</p>
+    <section className="section-container" id="services">
+      <div ref={headingRef} className="scroll-reveal flex flex-col items-center w-full mb-16">
+        <p className="section-title">Our Expertise</p>
+        <h2 className="section-heading text-center">Our Services</h2>
+        <div className="w-16 h-1 bg-gradient-to-r from-primary via-accent to-accent-2 rounded-full mt-4"></div>
+      </div>
+      
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        {servicesList.map((service, index) => (
+          <div
+            key={index}
+            ref={addCardRef(index)}
+            className={`glass-card p-8 flex flex-col gap-4 scroll-reveal reveal-delay-${(index % 4) + 1}`}
+          >
+            <div className="w-14 h-14 rounded-lg bg-primary/10 text-primary flex items-center justify-center border border-primary/20 mb-2">
+              {service.icon}
             </div>
-          ))}
-        </div>
+            <h3 className="text-xl font-bold text-zinc-50">{service.title}</h3>
+            <p className="text-zinc-400 text-sm leading-relaxed">{service.description}</p>
+          </div>
+        ))}
       </div>
     </section>
   );

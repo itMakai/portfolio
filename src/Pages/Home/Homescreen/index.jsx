@@ -1,4 +1,4 @@
-import ContactMe from "../ContactMe";
+import ContactUs from "../ContactUs";
 import Footer from "../Footer";
 import HeroSection from "../HeroSection";
 import MyPortfolio from "../MyPortfolio";
@@ -18,7 +18,7 @@ export default function Home() {
       <MyPortfolio />
       <Credetials />
       <CallToAction />
-      <ContactMe />
+      <ContactUs />
       <Footer />
     </>
   );
